@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #1a0033, #000);
+  color: #f2f2f2;
+  line-height: 1.6;
+}
+
+/* Header Section */
+header {
+  background: linear-gradient(90deg, #3a0072, #000);
+  color: #ffd700;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 2px solid #ffd700;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header p {
+  color: #e0e0e0;
+  font-size: 1.1rem;
+}
+
+/* Navigation Bar */
+nav {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+  text-shadow: 0 0 10px #ffd700;
+}
+
+/* Banner */
+.banner {
+  width: 80%;
+  max-width: 850px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+}
+
+/* Section Styling */
+section {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+h2 {
+  color: #ffd700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a001a;
+  border-top: 2px solid #ffd700;
+  color: #bbb;
+}
+
